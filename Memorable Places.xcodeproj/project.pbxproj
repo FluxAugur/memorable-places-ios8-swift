@@ -13,6 +13,7 @@
 		A7A24F5B19CF3D8100CBA30F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A24F5A19CF3D8100CBA30F /* Images.xcassets */; };
 		A7A24F5E19CF3D8100CBA30F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A24F5C19CF3D8100CBA30F /* LaunchScreen.xib */; };
 		A7A24F6A19CF3D8100CBA30F /* Memorable_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A24F6919CF3D8100CBA30F /* Memorable_PlacesTests.swift */; };
+		A7A24F7419CF3E4800CBA30F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A24F7319CF3E4800CBA30F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A7A24F6319CF3D8100CBA30F /* Memorable PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorable PlacesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A24F6819CF3D8100CBA30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7A24F6919CF3D8100CBA30F /* Memorable_PlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorable_PlacesTests.swift; sourceTree = "<group>"; };
+		A7A24F7319CF3E4800CBA30F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A24F7419CF3E4800CBA30F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		A7A24F4519CF3D8000CBA30F = {
 			isa = PBXGroup;
 			children = (
+				A7A24F7319CF3E4800CBA30F /* CoreLocation.framework */,
 				A7A24F5019CF3D8100CBA30F /* Memorable Places */,
 				A7A24F6619CF3D8100CBA30F /* Memorable PlacesTests */,
 				A7A24F4F19CF3D8100CBA30F /* Products */,
